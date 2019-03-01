@@ -1,3 +1,7 @@
+body {
+    background-image: url("Images/dynamic-style.png");
+}
+
 .thumbnail {
     position: relative;
 }
@@ -40,8 +44,12 @@ a {
     color: #4aaaa5 !important;
 }
 
-#fortext {
-    padding-left: 5% !important;
+.fortext {
+    padding-left: 2% !important;
+}
+
+.forboxes {
+    padding-left: 2% !important; 
 }
 
 .forbutton {
