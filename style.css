@@ -37,7 +37,7 @@ body {
 }
 
 a {
-        color: white !important;
+    color: white !important;
 }
 
 .forlinkedbutton {
@@ -90,4 +90,40 @@ a {
     font-size: 1vw;
     padding-top:1%;
     bottom: 0;
+}
+
+@media screen and (max-width: 575px) {
+    ul {
+        margin-inline-start: 0 !important;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 606px) {
+    ul {
+        margin-inline-start: 30% !important;
+    }
+}
+
+@media screen and (min-width: 607px) and (max-width: 767px) {
+    ul {
+        margin-inline-start: 35% !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    ul {
+        margin-inline-start: 45% !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    ul {
+        margin-inline-start: 50% !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    ul {
+        margin-inline-start: 55% !important;
+    }
 }
